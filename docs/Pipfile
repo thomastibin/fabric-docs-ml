@@ -12,4 +12,4 @@ sphinx-intl = "*"
 recommonmark = "==0.4.0"
 
 [requires]
-python_version = "3.7"
+python_version = "3.6"
