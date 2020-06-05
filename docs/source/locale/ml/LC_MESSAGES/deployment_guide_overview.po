@@ -21,7 +21,7 @@ msgstr ""
 #: ../../source/deployment_guide_overview.rst:2
 msgid "Deploying a production network"
 msgstr ""
-
+"ഒരു പ്രൊഡക്ഷൻ നെറ്റ്‌വർക്ക് വികസിപ്പിക്കുന്നു...fksjdf"
 #: ../../source/deployment_guide_overview.rst:4
 msgid ""
 "This deployment guide is a high level overview of the proper sequence for"
