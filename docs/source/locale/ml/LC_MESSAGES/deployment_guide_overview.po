@@ -71,7 +71,7 @@ msgstr ""
 "ചെയിൻ‌കോഡ്, സ്മാർട്ട് കരാറുകൾ‌, കൂടാതെ അപ്ലിക്കേഷനുകൾ‌ എന്നിവ പരീക്ഷിക്കുന്നതിനുള്ള ഒരു വികസന അന്തരീക്ഷം"
 " നിങ്ങൾ‌ക്കാവശ്യമുണ്ടെങ്കിൽ‌,  ഇത് പരിശോധിക്കുക :doc:`test_network` ഇതിൽ രണ്ട് ഓർഗനൈസേഷനുകൾ " 
 "ഉൾപ്പെടുന്നു, ഓരോന്നിനും ഒരു പിയർ , അതുപോലെ ഒരു ഓർഡറിംഗ് നോഡ് സ്വന്തമായിട്ട്  ഉള്ള  ഒരു ഒരു ഓർഡറിംഗ് സേവന  "
-"ഓർഗനൈസേഷനും ഉണ്ട് . ** ഉൽ‌പാദന ഘടകങ്ങൾ‌ വിന്യസിക്കുന്നതിന് ഒരു ബ്ലൂപ്രിൻറ് നൽകുന്നതിനല്ല ഈ ടെസ്റ്റ് നെറ്റ്‌വർക്ക് "
+"ഓർഗനൈസേഷനും ഉണ്ട് . **ഉൽ‌പാദന ഘടകങ്ങൾ‌ വിന്യസിക്കുന്നതിന് ഒരു ബ്ലൂപ്രിൻറ് നൽകുന്നതിനല്ല ഈ ടെസ്റ്റ് നെറ്റ്‌വർക്ക് "
 "ഉദ്ദേശിക്കുന്നത്, മാത്രമല്ല ഇത് ഉപയോഗിക്കാൻ‌ പാടില്ല, കാരണം ഉൽ‌പാദന വിന്യാസങ്ങൾ‌ "
 "നടത്താത്ത അനുമാനങ്ങളും തീരുമാനങ്ങളും എടുക്കുന്നു."
 #: ../../source/deployment_guide_overview.rst:10
@@ -563,7 +563,7 @@ msgstr ""
 #: ../../source/deployment_guide_overview.rst:101
 msgid "Step four: Use the CA to create identities and MSPs"
 msgstr ""
-
+"ഘട്ടം നാല്: ഐഡന്റിറ്റികളും എം‌എസ്‌പികളും സൃഷ്ടിക്കാൻ സി‌എ ഉപയോഗിക്കുക"
 #: ../../source/deployment_guide_overview.rst:103
 msgid ""
 "After you have created your CAs, you can use them to create the "
@@ -571,7 +571,10 @@ msgid ""
 "organization (which is represented by an MSP). For each organization, you"
 " will need to, at a minimum:"
 msgstr ""
-
+"നിങ്ങളുടെ സി‌എകൾ‌ സൃഷ്‌ടിച്ച ശേഷം, നിങ്ങളുടെ ഓർ‌ഗനൈസേഷനുമായി ബന്ധപ്പെട്ട "
+"ഐഡന്റിറ്റികൾ‌ക്കും ഘടകങ്ങൾ‌ക്കുമായി സർ‌ട്ടിഫിക്കറ്റുകൾ‌ സൃഷ്‌ടിക്കുന്നതിന് അവ"
+" ഉപയോഗിക്കാൻ‌ കഴിയും (ഇത് ഒരു എം‌എസ്‌പി പ്രതിനിധീകരിക്കുന്നു). ഓരോ ഓർഗനൈസേഷനും, "
+"നിങ്ങൾ കുറഞ്ഞത് ചെയ്യേണ്ടതുണ്ട്:"
 #: ../../source/deployment_guide_overview.rst:105
 msgid ""
 "**Register and enroll an admin identity and create an MSP**. After the CA"
@@ -597,7 +600,22 @@ msgid ""
 "creating the local MSP of a node, since the certificate of the node admin"
 " must be used when creating the local MSP**."
 msgstr ""
-
+"**ഒരു അഡ്മിൻ ഐഡന്റിറ്റി രജിസ്റ്റർ ചെയ്യുകയും എൻറോൾ ചെയ്യുകയും ഒരു എം‌എസ്‌പി സൃഷ്ടിക്കുകയും ചെയ്യുക**. "
+"ഒരു ഓർഗനൈസേഷനുമായി ബന്ധപ്പെട്ടിരിക്കുന്ന സി‌എ സൃഷ്ടിച്ച ശേഷം, ആദ്യം ഒരു ഐഡന്റിറ്റി രജിസ്റ്റർ ചെയ്യാനും "
+"അത് എൻറോൾ ചെയ്യാനും ഇത് ഉപയോഗിക്കാം. ആദ്യ ഘട്ടത്തിൽ, ഐഡന്റിറ്റിക്കായി ഒരു ഉപയോക്തൃനാമവും പാസ്‌വേഡും നൽകുന്നത് "
+"സി‌എയുടെ അഡ്‌മിൻ ആണ്. ഐഡന്റിറ്റിക്കും ആട്രിബ്യൂട്ടുകളും അഫിലിയേഷനുകളും നൽകാം (ഉദാഹരണത്തിന്, ഓർഗനൈസേഷൻ "
+"അഡ്മിൻമാർക്ക് ആവശ്യമുള്ള ``അഡ്മിൻ`` ന്റെ ``റോൾ`` ). ഐഡന്റിറ്റി രജിസ്റ്റർ ചെയ്ത ശേഷം, ഉപയോക്തൃനാമവും പാസ്‌വേഡും "
+"ഉപയോഗിച്ച് ഇത് എൻറോൾ ചെയ്യാം. ഈ ഐഡന്റിറ്റിക്കായി സി‌എ രണ്ട് സർ‌ട്ടിഫിക്കറ്റുകൾ‌ ജനറേറ്റുചെയ്യും --- നെറ്റ്‌വർക്കിലെ "
+"മറ്റ് അംഗങ്ങൾക്ക് അറിയാവുന്ന ഒരു പൊതു സർ‌ട്ടിഫിക്കറ്റ് (സൈൻ‌സെർട്ട് എന്നും അറിയപ്പെടുന്നു), കൂടാതെ പ്രവർ‌ത്തനങ്ങളിൽ‌ "
+"ഒപ്പിടാൻ ഉപയോഗിക്കുന്ന സ്വകാര്യ കീ (``കീസ്റ്റോർ`` ഫോൾ‌ഡറിൽ‌ സംഭരിച്ചിരിക്കുന്നു) ഐഡന്റിറ്റി എടുത്തതാണ്. സർ‌ട്ടിഫിക്കറ്റ് നൽ‌കുന്ന "
+"സി‌എയുടെ പബ്ലിക് സർ‌ട്ടിഫിക്കറ്റും സി‌എയ്ക്കുള്ള വിശ്വാസത്തിൻറെ റൂട്ടും അടങ്ങിയ ഒരു എം‌എസ്‌പി ഫയലും സി‌എ സൃഷ്ടിക്കും (ഇത് ഒരേ "
+"സി‌എ ആയിരിക്കാം അല്ലെങ്കിൽ ഉണ്ടാകില്ല). ഈ എം‌എസ്‌പിയെ അഡ്‌മിന്റെ ഐഡന്റിറ്റിയുമായി ബന്ധപ്പെട്ട ഓർഗനൈസേഷനെ "
+"നിർവചിക്കുന്നതായി കണക്കാക്കാം. ഈ പ്രോസസ്സ് എങ്ങനെ കാണപ്പെടുന്നു എന്നതിന്റെ ഒരു ഉദാഹരണത്തിനായി, `ഒരു അഡ്മിൻ എൻറോൾ "
+"ചെയ്തതിന്റെ ഈ ഉദാഹരണം പരിശോധിക്കുക <https://hyperledger-fabric-ca.readthedocs.io/en/latest"
+"/operations_guide.html#enroll-org1-s-admin>`_.  ഓർഗിന്റെ അഡ്‌മിൻ ഒരു നോഡിന്റെ അഡ്‌മിൻ "
+"ആകുന്ന സന്ദർഭങ്ങളിൽ (ഇത് സാധാരണമായിരിക്കും), **ഒരു നോഡിന്റെ പ്രാദേശിക എം‌എസ്‌പി സൃഷ്ടിക്കുന്നതിന് മുമ്പ് "
+"നിങ്ങൾ ഓർഗ് അഡ്മിൻ ഐഡന്റിറ്റി സൃഷ്‌ടിക്കണം, കാരണം നോഡ് അഡ്മിന്റെ സർട്ടിഫിക്കറ്റ് എപ്പോൾ ഉപയോഗിക്കണം "
+"പ്രാദേശിക എം‌എസ്‌പി സൃഷ്‌ടിക്കുന്നു**."
 #: ../../source/deployment_guide_overview.rst:106
 msgid ""
 "**Register and enroll node identities**. Just as an org admin identity is"
@@ -622,21 +640,41 @@ msgid ""
 "root certificates to the local MSP of a node because these certificates "
 "are contained in the channel configuration."
 msgstr ""
-
+"**നോഡ് ഐഡന്റിറ്റികൾ രജിസ്റ്റർ ചെയ്യുകയും എൻറോൾ ചെയ്യുകയും ചെയ്യുക**. ഒരു org അഡ്മിൻ ഐഡന്റിറ്റി രജിസ്റ്റർ ചെയ്യുകയും "
+"എൻറോൾ ചെയ്യുകയും ചെയ്യുന്നതുപോലെ, ഒരു നോഡിന്റെ ഐഡന്റിറ്റി രജിസ്റ്റർ ചെയ്യുകയും എൻറോൾമെന്റ് CA, TLS CA"'
+" എന്നിവയിൽ എൻ‌റോൾ ചെയ്യുകയും വേണം. ഇക്കാരണത്താൽ, നിങ്ങളുടെ എൻ‌റോൾ‌മെന്റ് സി‌എ, ടി‌എൽ‌എസ് എന്നിവയ്ക്ക് ഒരു "
+"ഡാറ്റാബേസ് പങ്കിടുന്നത് ഉപയോഗപ്രദമാകും (ഇത് നോഡ് ഐഡന്റിറ്റി ഒരു തവണ മാത്രം രജിസ്റ്റർ ചെയ്യാനും ഓരോ സിഎ സെർവറിനും "
+"വെവ്വേറെ എൻറോൾ ചെയ്യാനും അനുവദിക്കുന്നു), ഇത് ഒരു ഓപ്‌ഷണൽ കോൺഫിഗറേഷൻ ഓപ്ഷനാണെങ്കിലും. എൻറോൾമെന്റ് സി‌എയിൽ "
+"രജിസ്റ്റർ ചെയ്യുമ്പോൾ ഒരു നോഡിന് ``അഡ്മിൻ‌`` അല്ലെങ്കിൽ‌ ``ഉപയോക്താവ്`` എന്നതിന് ഒരു റോൾ നൽകുന്നതിനുപകരം,"
+" അത് ``പിയർ`` അല്ലെങ്കിൽ ``ഓർ‌ഡറർ`` എന്നതിന്റെ ഒരു റോൾ നൽകുക. അഡ്‌മിനെപ്പോലെ, ഈ ഐഡന്റിറ്റിയുടെ ആട്രിബ്യൂട്ടുകളും "
+"അഫിലിയേഷനുകളും കഴിയും നിയോഗിക്കപ്പെടും. ഒരു നോഡിനായുള്ള എം‌എസ്‌പി ഘടനയെ \"ലോക്കൽ എം‌എസ്‌പി \" എന്ന് വിളിക്കുന്നു, "
+"കാരണം ഐഡന്റിറ്റികൾക്ക് നൽകിയിട്ടുള്ള അനുമതികൾ പ്രാദേശിക (നോഡ്) തലത്തിൽ മാത്രമേ പ്രസക്തമാകൂ. നോഡ് ഐഡന്റിറ്റി "
+"സൃഷ്ടിക്കുമ്പോൾ ഈ MSP സൃഷ്ടിക്കപ്പെടുന്നു, കൂടാതെ നോഡ് ബൂട്ട് സ്ട്രാപ്പ് ചെയ്യുമ്പോൾ ഇത് ഉപയോഗിക്കുന്നു. "
+"നിങ്ങളുടെ ഓർഗനൈസേഷനിൽ ചാനലിലേക്ക് ചേരുമ്പോൾ ടി‌എൽ‌എസ് സി‌എയിൽ ചേരുമ്പോൾ ജനറേറ്റുചെയ്ത ടി‌എൽ‌എസ് റൂട്ട് "
+"സർ‌ട്ടിഫിക്കറ്റ് നിങ്ങൾ ഉപയോഗിക്കും (നിങ്ങളുടെ അഡ്‌മിൻ എൻറോൾ ചെയ്യുമ്പോൾ സൃഷ്ടിച്ച ഓർഗ് എം‌എസ്‌പിയിലേക്ക് ഈ "
+"സർട്ടിഫിക്കറ്റ് ചേർക്കേണ്ടതാണ്) കൂടാതെ പിയർ ബൈനറി ഒരു സി‌എൽ‌ഐ ക്ലയന്റായി ഉപയോഗിക്കുമ്പോൾ മറ്റ് സഹപാഠികളിലേക്ക് "
+"വിളിക്കാൻ (``പിയർ ചെയിൻ‌കോഡ് ഇൻ‌വോക്ക്`` പോലെ) അല്ലെങ്കിൽ നോഡുകൾ‌ ഓർ‌ഡർ‌ ചെയ്യുന്നതിന് "
+"(``പിയർ‌ ചാനൽ‌ ലഭ്യമാക്കൽ‌` പോലെ) ``ഓർ‌ഡറർ‌`` CLI ഇല്ലാത്തതിനാൽ‌. ചാനൽ കോൺഫിഗറേഷനിൽ ഈ "
+"സർട്ടിഫിക്കറ്റുകൾ അടങ്ങിയിരിക്കുന്നതിനാൽ ഒരു നോഡിന്റെ പ്രാദേശിക എം‌എസ്‌പിയിലേക്ക് ടി‌എൽ‌എസ് റൂട്ട് സർട്ടിഫിക്കറ്റുകൾ "
+"ചേർക്കേണ്ട ആവശ്യമില്ല."
 #: ../../source/deployment_guide_overview.rst:108
 msgid ""
 "For more conceptual information about identities and permissions in a "
 "Fabric-based blockchain network, see :doc:`identity/identity` and "
 ":doc:`membership/membership.html`."
 msgstr ""
-
+"ഒരു ഫാബ്രിക് അധിഷ്‌ഠിത ബ്ലോക്ക്‌ചെയിൻ നെറ്റ്‌വർക്കിലെ ഐഡന്റിറ്റികളെയും അനുമതികളെയും"
+" കുറിച്ചുള്ള കൂടുതൽ ആശയപരമായ വിവരങ്ങൾക്ക്, കാണുക ,` :doc:`identity/identity` "
+"and :doc:`membership/membership`."
 #: ../../source/deployment_guide_overview.rst:110
 msgid ""
 "For a look at how to use a CA to generate an admin identity and MSP, "
 "check out `Enroll Org1's Admin <https://hyperledger-fabric-"
 "ca.readthedocs.io/en/latest/operations_guide.html#enroll-org1-s-admin>`_."
 msgstr ""
-
+"ഒരു അഡ്‌മിൻ ഐഡന്റിറ്റിയും എം‌എസ്‌പിയും സൃഷ്ടിക്കുന്നതിന് ഒരു സി‌എ എങ്ങനെ ഉപയോഗിക്കാമെന്നറിയാൻ,"
+" `എൻ‌റോൾ ഓർ‌ഗ് 1 ന്റെ അഡ്‌മിൻ‌ പരിശോധിക്കുക <https://hyperledger-fabric-"
+"ca.readthedocs.io/en/latest/operations_guide.html#enroll-org1-s-admin>`_."
 #: ../../source/deployment_guide_overview.rst:112
 msgid ""
 "To see how to use the enrollment CA to and the TLS CA to generate the "
@@ -644,22 +682,29 @@ msgid ""
 "://hyperledger-fabric-ca.readthedocs.io/en/latest/operations_guide.html"
 "#setup-org1-s-peers>`_."
 msgstr ""
+"ഒരു നോഡിനായി സർ‌ട്ടിഫിക്കറ്റുകൾ‌ ജനറേറ്റ് ചെയ്യുന്നതിന് എൻ‌റോൾ‌മെന്റ് സി‌എയും ടി‌എൽ‌എസ് സി‌എയും എങ്ങനെ"
+" ഉപയോഗിക്കാമെന്ന് കാണാൻ, `ഓർ‌ഗ്‌ 1 ന്റെ പിയറുകളെ  സജ്ജമാക്കുക   <https"
+"://hyperledger-fabric-ca.readthedocs.io/en/latest/operations_guide.html"
+"#setup-org1-s-peers>`_."
+
 
 #: ../../source/deployment_guide_overview.rst:117
 msgid "Step five: Deploy nodes"
 msgstr ""
-
+"ഘട്ടം അഞ്ച്: നോഡുകൾ വിന്യസിക്കുക"
 #: ../../source/deployment_guide_overview.rst:119
 msgid ""
 "Once you have gathered all of the certificates and MSPs you need, you're "
 "almost ready to create a node. As discussed above, there are a number of "
 "valid ways to deploy nodes."
 msgstr ""
-
+"നിങ്ങൾക്ക് ആവശ്യമായ എല്ലാ സർട്ടിഫിക്കറ്റുകളും എം‌എസ്‌പികളും ശേഖരിച്ചുകഴിഞ്ഞാൽ,"
+" നിങ്ങൾ ഒരു നോഡ് സൃഷ്ടിക്കാൻ ഏകദേശം തയ്യാറാണ്. മുകളിൽ ചർച്ച ചെയ്തതുപോലെ, നോഡുകൾ "
+"വിന്യസിക്കുന്നതിന് സാധുവായ നിരവധി മാർഗങ്ങളുണ്ട്."
 #: ../../source/deployment_guide_overview.rst:124
 msgid "Create a peer"
 msgstr ""
-
+"ഒരു പിയർ സൃഷ്ടിക്കുക"
 #: ../../source/deployment_guide_overview.rst:126
 msgid ""
 "Before you can create a peer, you will need to customize the "
@@ -668,7 +713,10 @@ msgid ""
 " the sampleconfig directory of Hyperledger Fabric "
 "<https://github.com/hyperledger/fabric/blob/master/sampleconfig/core.yaml>`_."
 msgstr ""
-
+"നിങ്ങൾക്ക് ഒരു പിയർ സൃഷ്ടിക്കുന്നതിന് മുമ്പ്, നിങ്ങൾ പിയറിനായി കോൺഫിഗറേഷൻ ഫയൽ ഇച്ഛാനുസൃതമാക്കേണ്ടതുണ്ട്. " 
+"ഫാബ്രിക്കിൽ, ഈ ഫയലിനെ ``core.yaml`` എന്ന് വിളിക്കുന്നു. ഹൈപ്പർലെഡ്ജർ ഫാബ്രിക്കിന്റെ സാമ്പിൾ കോൺഫിഗറേഷൻ "
+"ഡയറക്‌ടറിയിൽ നിങ്ങൾക്ക് ``core.yaml`` `കോൺഫിഗറേഷൻ ഫയൽ കണ്ടെത്താനാകും <https://github.com/hyperledger"
+"/fabric/blob/master/sampleconfig/core.yaml>`_."
 #: ../../source/deployment_guide_overview.rst:128
 msgid ""
 "As you can see in the file, there are quite a number of parameters you "
@@ -678,27 +726,31 @@ msgid ""
 "various addresses, specify the database type you want to use, as well as "
 "to specify where the MSP for the node is located."
 msgstr ""
-
+"ഫയലിൽ നിങ്ങൾക്ക് കാണാനാകുന്നതുപോലെ, നിങ്ങൾക്ക് സജ്ജീകരിക്കാനുള്ള ഓപ്‌ഷനുള്ള നിരവധി പാരാമീറ്ററുകൾ "
+"ഉണ്ട് അല്ലെങ്കിൽ നിങ്ങളുടെ നോഡ് ശരിയായി പ്രവർത്തിക്കുന്നതിന് സജ്ജമാക്കേണ്ടതുണ്ട്. പൊതുവേ, നിങ്ങൾക്ക് ഒരു "
+"ട്യൂണിംഗ് മൂല്യം മാറ്റേണ്ട ആവശ്യമില്ലെങ്കിൽ, അത് ഉപേക്ഷിക്കുക. എന്നിരുന്നാലും, നിങ്ങൾക്ക് വിവിധ "
+"വിലാസങ്ങൾ ക്രമീകരിക്കാനും നിങ്ങൾ ഉപയോഗിക്കാൻ ആഗ്രഹിക്കുന്ന ഡാറ്റാബേസ് തരം വ്യക്തമാക്കാനും "
+"നോഡിനായുള്ള എം‌എസ്‌പി എവിടെയാണെന്ന് വ്യക്തമാക്കാനും ആവശ്യമാണ്."
 #: ../../source/deployment_guide_overview.rst:130
 #: ../../source/deployment_guide_overview.rst:167
 msgid "You have two main options for tuning your configuration."
 msgstr ""
-
+"നിങ്ങളുടെ കോൺഫിഗറേഷൻ ട്യൂൺ ചെയ്യുന്നതിന് നിങ്ങൾക്ക് രണ്ട് പ്രധാന ഓപ്ഷനുകൾ ഉണ്ട്."
 #: ../../source/deployment_guide_overview.rst:132
 #: ../../source/deployment_guide_overview.rst:169
 msgid "Edit the YAML file bundled with the binaries."
 msgstr ""
-
+"ബൈനറികൾക്കൊപ്പം ചേർത്ത YAML ഫയൽ എഡിറ്റുചെയ്യുക."
 #: ../../source/deployment_guide_overview.rst:133
 #: ../../source/deployment_guide_overview.rst:170
 msgid "Use environment variable overrides when deploying."
 msgstr ""
-
+"വിന്യസിക്കുമ്പോൾ പരിസ്ഥിതി വേരിയബിൾ ഓവർറൈഡുകൾ ഉപയോഗിക്കുക."
 #: ../../source/deployment_guide_overview.rst:134
 #: ../../source/deployment_guide_overview.rst:171
 msgid "Specify flags on CLI commands."
 msgstr ""
-
+"CLI കമാൻഡുകളിൽ ഫ്ലാഗുകൾ വ്യക്തമാക്കുക."
 #: ../../source/deployment_guide_overview.rst:136
 #: ../../source/deployment_guide_overview.rst:173
 msgid ""
@@ -708,11 +760,14 @@ msgid ""
 "binary version (you should use the latest YAML when upgrading to a new "
 "version)."
 msgstr ""
-
+"നിങ്ങൾ താഴേക്കിറങ്ങുകയും നോഡ് തിരികെ കൊണ്ടുവരികയും ചെയ്യുമ്പോഴെല്ലാം നിങ്ങളുടെ മാറ്റങ്ങൾ "
+"തുടരുന്നതിന്റെ ഗുണം ഓപ്ഷൻ 1 ന് ഉണ്ട്. ഒരു പുതിയ ബൈനറി പതിപ്പിലേക്ക് അപ്‌ഗ്രേഡുചെയ്യുമ്പോൾ നിങ്ങൾ പുതിയ"
+" YAML- ലേക്ക് ഇഷ്‌ടാനുസൃതമാക്കിയ ഓപ്‌ഷനുകൾ പോർട്ട് ചെയ്യേണ്ടിവരും (ഒരു പുതിയ പതിപ്പിലേക്ക്"
+" അപ്‌ഗ്രേഡുചെയ്യുമ്പോൾ നിങ്ങൾ ഏറ്റവും പുതിയ YAML ഉപയോഗിക്കണം)."
 #: ../../source/deployment_guide_overview.rst:138
 msgid "Either way, here are some values in ``core.yaml`` you must review."
 msgstr ""
-
+"ഏതുവിധേനയും, നിങ്ങൾ അവലോകനം ചെയ്യേണ്ട ` `core.yaml`` ലെ ചില സാമ്പിളുകൾ ഇതാ."
 #: ../../source/deployment_guide_overview.rst:140
 msgid ""
 "``peer.localMspID``: this is the name of the local MSP of your peer "
@@ -720,7 +775,9 @@ msgid ""
 "listed as well as the peer organization's root CA and TLS CA "
 "certificates."
 msgstr ""
-
+"``peer.localMspID``: നിങ്ങളുടെ പിയർ ഓർഗനൈസേഷന്റെ പ്രാദേശിക എം‌എസ്‌പിയുടെ പേരാണിത്. "
+"നിങ്ങളുടെ പിയർ ഓർഗനൈസേഷൻ അഡ്‌മിനുകളെയും പിയർ ഓർഗനൈസേഷന്റെ റൂട്ട് സിഎ, ടിഎൽഎസ് സിഎ"
+" സർട്ടിഫിക്കറ്റുകളെയും ലിസ്റ്റുചെയ്യുന്ന ഇടമാണ് ഈ എം‌എസ്‌പി."
 #: ../../source/deployment_guide_overview.rst:142
 msgid ""
 "``peer.mspConfigPath``: the place where the local MSP for the peer is "
@@ -729,14 +786,19 @@ msgid ""
 "example, during a maintenance cycle) that the MSPs are not lost and have "
 "to be recreated."
 msgstr ""
-
+"``peer.mspConfigPath``: പിയറിനായുള്ള പ്രാദേശിക എം‌എസ്‌പി സ്ഥിതിചെയ്യുന്ന സ്ഥലം. നിങ്ങളുടെ "
+"കണ്ടെയ്നറിന് പുറത്തേക്ക് ഈ വോളിയം മൌണ്ട്  ചെയ്യുന്നത് മികച്ച പരിശീലനമാണെന്ന് ശ്രദ്ധിക്കുക. കണ്ടെയ്നർ "
+"നിർത്തിയാലും (ഉദാഹരണത്തിന്, ഒരു മെയിന്റനൻസ് സൈക്കിൾ സമയത്ത്) എം‌എസ്‌പികൾ "
+"നഷ്‌ടപ്പെടുന്നില്ലെന്നും പുനസൃഷ്ടിക്കേണ്ടതുണ്ടെന്നും ഇത് ഉറപ്പാക്കുന്നു."
 #: ../../source/deployment_guide_overview.rst:144
 msgid ""
 "``peer.address``: represents the endpoint to other peers in the same "
 "organization, an important consideration when establishing gossip "
 "communication within an organization."
 msgstr ""
-
+"``peer.address``: ഒരേ ഓർഗനൈസേഷനിലെ മറ്റ് സമപ്രായക്കാർക്കുള്ള അന്തിമ "
+"പോയിന്റിനെ പ്രതിനിധീകരിക്കുന്നു, ഒരു ഓർഗനൈസേഷനിൽ ഗോസിപ്പ് ആശയവിനിമയം "
+"സ്ഥാപിക്കുമ്പോൾ ഒരു പ്രധാന പരിഗണന."
 #: ../../source/deployment_guide_overview.rst:146
 msgid ""
 "``peer.tls``: When you set the ``enabled`` value to ``true`` (as should "
@@ -747,7 +809,12 @@ msgid ""
 "enable TLS. As with your MSP, it is a best practice to mount this volume "
 "external to your container."
 msgstr ""
-
+"``peer.tls``: നിങ്ങൾ  ``enabled`` ന്റെ   വാല്യൂ ``true`` (ഒരു പ്രൊഡക്ഷൻ നെറ്റ്‌വർക്കിൽ ചെയ്യേണ്ടത്)"
+"എന്നായി സജ്ജമാക്കുമ്പോൾ, പ്രസക്തമായ ടി‌എൽ‌എസ് സർട്ടിഫിക്കറ്റുകളുടെ സ്ഥാനങ്ങൾ നിങ്ങൾ വ്യക്തമാക്കേണ്ടതുണ്ട്. "
+"കുറിപ്പ് ഒരു നെറ്റ്‌വർക്കിലെ എല്ലാ നോഡുകളും (സമപ്രായക്കാരും ഓർ‌ഡറിംഗ് നോഡുകളും) ഒന്നുകിൽ ടി‌എൽ‌എസ് "
+"പ്രാപ്‌തമാക്കിയിരിക്കണം അല്ലെങ്കിൽ‌ പ്രാപ്‌തമാക്കിയിട്ടില്ല. ഉൽ‌പാദന നെറ്റ്‌വർ‌ക്കുകൾ‌ക്കായി, ടി‌എൽ‌എസ് "
+"പ്രാപ്‌തമാക്കുന്നതിന് ഇത് വളരെ ശുപാർശ ചെയ്യുന്നു.നിങ്ങളുടെ എം‌എസ്‌പിയെപ്പോലെ, ഇത് ഒരു മികച്ച "
+"പരിശീലനമാണ് ഈ വോളിയം നിങ്ങളുടെ കണ്ടെയ്‌നറിന് പുറത്തേക്ക് മൌണ്ട്  ചെയ്യുക."
 #: ../../source/deployment_guide_overview.rst:148
 msgid ""
 "``ledger``: users have a number of decisions to make about their ledger, "
@@ -757,7 +824,11 @@ msgid ""
 "to the peer, as you will be better able to allocate specific resources to"
 " the database this way."
 msgstr ""
-
+"``ലെഡ്‌ജർ‌``: ഉപയോക്താക്കൾ‌ക്ക് അവരുടെ ലെഡ്‌ജറിനെക്കുറിച്ച് സംസ്ഥാന ഡാറ്റാബേസ് തരം "
+"(ഉദാഹരണത്തിന് ലെവൽ‌ഡിബി അല്ലെങ്കിൽ കൗച് ഡിബി), അതിന്റെ സ്ഥാനം (``fileSystemPath`` "
+"വ്യക്തമാക്കിയത്) എന്നിവ ഉൾപ്പെടെ നിരവധി തീരുമാനങ്ങളുണ്ട്. നിങ്ങളുടെ സംസ്ഥാന ഡാറ്റാബേസ് പിയറിന് പുറത്തേക്ക് "
+"പ്രവർത്തിപ്പിക്കുന്നത് കൗച്ഡിബിയെ സംബന്ധിച്ചിടത്തോളം മികച്ച പരിശീലനമാണെന്ന് ശ്രദ്ധിക്കുക, കാരണം "
+"ഡാറ്റാബേസിലേക്ക് നിർദ്ദിഷ്ട വിഭവങ്ങൾ ഈ രീതിയിൽ അനുവദിക്കാൻ നിങ്ങൾക്ക് കഴിയും."
 #: ../../source/deployment_guide_overview.rst:150
 msgid ""
 "``gossip``: there are a number of configuration options to think about "
@@ -766,13 +837,17 @@ msgid ""
 "as the ``bootstrap`` address (which identifies a peer in the peer's own "
 "organization)."
 msgstr ""
-
+"``ഗോസിപ്പ്``: സജ്ജീകരിക്കുമ്പോൾ ചിന്തിക്കാൻ നിരവധി കോൺഫിഗറേഷൻ ഓപ്ഷനുകൾ ഉണ്ട് :doc:`gossip`,"
+" ``externalEndpoint`` (ഇത് മറ്റ് ഓർ‌ഗനൈസേഷനുകളുടെ ഉടമസ്ഥതയിലുള്ള പിയറുകൾക്കു മറ്റു പിയറുകളെ  "
+"കണ്ടെത്താൻ‌ സഹായിക്കുന്നു), കൂടാതെ ``bootstrap`` വിലാസം (ഇത് പിയറിന്റെ സ്വന്തം ഓർഗനൈസേഷനിലെ "
+"ഒരു പിയറിനെ തിരിച്ചറിയുന്നു)."
 #: ../../source/deployment_guide_overview.rst:152
 msgid ""
 "``chaincode.externalBuilders``: this field is important to set when using"
 " :doc:`cc_service.html`."
 msgstr ""
-
+"``chaincode.externalBuilders``: ഉപയോഗിക്കുമ്പോൾ ഈ ഫീൽഡ് സജ്ജീകരിക്കേണ്ടത്"
+" പ്രധാനമാണ് :doc:`cc_service.html`."
 #: ../../source/deployment_guide_overview.rst:154
 msgid ""
 "When you're comfortable with how your peer has been configured, how your "
@@ -780,11 +855,13 @@ msgid ""
 "command to launch the peer (this command will depend on your backend "
 "configuration)."
 msgstr ""
-
+"നിങ്ങളുടെ പിയർ എങ്ങനെ ക്രമീകരിച്ചു, നിങ്ങളുടെ വോള്യങ്ങൾ എങ്ങനെ മൌണ്ട് ചെയ്തു, നിങ്ങളുടെ ബാക്കെൻഡ് "
+"കോൺഫിഗറേഷൻ എന്നിവയിൽ നിങ്ങൾക്ക് താൽപ്പര്യമുണ്ടെങ്കിൽ, പിയർ സമാരംഭിക്കുന്നതിന് നിങ്ങൾക്ക്"
+" കമാൻഡ് പ്രവർത്തിപ്പിക്കാൻ കഴിയും (ഈ കമാൻഡ് നിങ്ങളുടെ ബാക്കെൻഡ് കോൺഫിഗറേഷനെ ആശ്രയിച്ചിരിക്കും)."
 #: ../../source/deployment_guide_overview.rst:159
 msgid "Create an ordering node"
 msgstr ""
-
+"ഒരു ഓർഡറിംഗ് നോഡ് സൃഷ്ടിക്കുക"
 #: ../../source/deployment_guide_overview.rst:161
 msgid ""
 "Unlike the creation of a peer, you will need to create a genesis block "
@@ -792,7 +869,10 @@ msgid ""
 "ordering node to an existing ordering service) and specify the path to it"
 " before launching the ordering node."
 msgstr ""
-
+"ഒരു പിയർ സൃഷ്ടിക്കുന്നതിൽ നിന്ന് വ്യത്യസ്തമായി, നിങ്ങൾ ഒരു ജെനിസിസ് ബ്ലോക്ക് "
+"സൃഷ്ടിക്കേണ്ടതുണ്ട് (അല്ലെങ്കിൽ നിലവിലുള്ള ഒരു ഓർ‌ഡറിംഗ് സേവനത്തിലേക്ക് ഒരു ഓർ‌ഡറിംഗ് നോഡ് "
+"ചേർ‌ക്കുകയാണെങ്കിൽ‌ ഇതിനകം സൃഷ്ടിച്ച ഒരു ബ്ലോക്കിനെ പരാമർശിക്കുക) കൂടാതെ ഓർ‌ഡറിംഗ് നോഡ് "
+"സമാരംഭിക്കുന്നതിന് മുമ്പ് അതിലേക്കുള്ള പാത വ്യക്തമാക്കുക."
 #: ../../source/deployment_guide_overview.rst:163
 msgid ""
 "In Fabric, this configuration file for ordering nodes is called "
@@ -804,7 +884,13 @@ msgid ""
 "of the orderer system channel, must be created before an ordering node is"
 " created because it is used to bootstrap the node."
 msgstr ""
-
+"ഫാബ്രിക്കിൽ, നോഡുകൾ ക്രമീകരിക്കുന്നതിനുള്ള ഈ കോൺഫിഗറേഷൻ ഫയലിനെ ``orderer.yaml``"
+" എന്ന് വിളിക്കുന്നു. ഹൈപ്പർലെഡ്ജർ ഫാബ്രിക്കിന്റെ സാമ്പിൾ കോൺഫിഗ് ഡയറക്ടറിയിൽ നിങ്ങൾക്ക് ``orderer.yaml` "
+"കോൺഫിഗറേഷൻ ഫയൽ `കണ്ടെത്താനാകും. "
+"<https://github.com/hyperledger/fabric/blob/master/sampleconfig/orderer.yaml>`_." 
+"ഒരു ഓർ‌ഡറിംഗ് സേവനത്തിൻറെ \"ജെനിസിസ് ബ്ലോക്ക് \" നേക്കാൾ വ്യത്യസ്തമാണ് ``orderer.yaml`. "
+"ഓർ‌ഡെറർ സിസ്റ്റം ചാനലിന്റെ പ്രാരംഭ കോൺഫിഗറേഷൻ ഉൾപ്പെടുന്ന ഈ ബ്ലോക്ക് ഒരു ഓർ‌ഡറിംഗ് നോഡ് "
+"സൃഷ്ടിക്കുന്നതിനുമുമ്പ് സൃഷ്‌ടിക്കേണ്ടതുണ്ട്, കാരണം ഇത് നോഡ് ബൂട്ട് സ്ട്രാപ്പ് ചെയ്യുന്നതിന് ഉപയോഗിക്കുന്നു."
 #: ../../source/deployment_guide_overview.rst:165
 msgid ""
 "As with the peer, you will see that there are quite a number of "
@@ -812,33 +898,39 @@ msgid ""
 " node to work properly. In general, if you do not have the need to change"
 " a tuning value, leave it alone."
 msgstr ""
-
+"പിയറിനെപ്പോലെ, നിങ്ങൾക്ക് സജ്ജീകരിക്കാനുള്ള ഓപ്‌ഷനുള്ള നിരവധി "
+"പാരാമീറ്ററുകൾ ഉണ്ടെന്ന് നിങ്ങൾ കാണും അല്ലെങ്കിൽ നിങ്ങളുടെ നോഡ് ശരിയായി "
+"പ്രവർത്തിക്കുന്നതിന് സജ്ജമാക്കേണ്ടതുണ്ട്. പൊതുവേ, നിങ്ങൾക്ക് ഒരു ട്യൂണിംഗ് മൂല്യം മാറ്റേണ്ട "
+"ആവശ്യമില്ലെങ്കിൽ, അത് ഉപേക്ഷിക്കുക."
 #: ../../source/deployment_guide_overview.rst:175
 msgid ""
 "Either way, here are some values in ``orderer.yaml`` you must review. You"
 " will notice that some of these fields are the same as those in "
 "``core.yaml`` only with different names."
 msgstr ""
-
+"ഏതുവിധേനയും, നിങ്ങൾ അവലോകനം ചെയ്യേണ്ട `` orderer.yaml`` ലെ ചില മൂല്യങ്ങൾ ഇതാ. "
+"ഈ ഫീൽഡുകളിൽ ചിലത് `` core.yaml`` തുല്യമാണെന്ന് നിങ്ങൾ ശ്രദ്ധിക്കും,  പേരുകളിൽ മാത്രം വ്യത്യസ്തം ."
 #: ../../source/deployment_guide_overview.rst:177
 msgid ""
 "``General.LocalMSPID``: this is the name of the local MSP, generated by "
 "your CA, of your orderer organization."
 msgstr ""
-
+"``General.LocalMSPID``: നിങ്ങളുടെ ഓർ‌ഡറർ‌ ഓർ‌ഗനൈസേഷന്റെ സി‌എ ജനറേറ്റുചെയ്‌ത "
+"പ്രാദേശിക എം‌എസ്‌പിയുടെ പേരാണിത്."
 #: ../../source/deployment_guide_overview.rst:179
 msgid ""
 "``General.LocalMSPDir``: the place where the local MSP for the ordering "
 "node is located. Note that it is a best practice to mount this volume "
 "external to your container."
 msgstr ""
-
+"``General.LocalMSPDir``: ഓർ‌ഡറിംഗ് നോഡിനായുള്ള പ്രാദേശിക എം‌എസ്‌പി സ്ഥിതിചെയ്യുന്ന സ്ഥലം. ഈ വോളിയം നിങ്ങളുടെ കണ്ടെയ്‌നറിന് പുറത്തേക്ക് മൌണ്ട് ചെയ്യുന്നത് മികച്ച പരിശീലനമാണെന്ന് ശ്രദ്ധിക്കുക."
 #: ../../source/deployment_guide_overview.rst:181
 msgid ""
 "``General.ListenAddress`` and ``General.ListenPort``: represents the "
 "endpoint to other ordering nodes in the same organization."
 msgstr ""
-
+"``General.ListenAddress``, & ``General.ListenPort``: ഒരേ ഓർഗനൈസേഷനിലെ മറ്റ് "
+"ഓർഡറിംഗ് നോഡുകളിലേക്കുള്ള എൻഡ്‌പോയിന്റിനെ പ്രതിനിധീകരിക്കുന്നു."
 #: ../../source/deployment_guide_overview.rst:183
 msgid ""
 "``FileLedger``: although ordering nodes do not have a state database, "
@@ -846,14 +938,19 @@ msgid ""
 "verify permissions using the latest config block. Therefore the ledger "
 "fields should be customized with the correct file path."
 msgstr ""
-
+"``ഫയൽ‌ലെഡ്‌ജർ‌``: ഓർ‌ഡറിംഗ് നോഡുകൾ‌ക്ക് സ്റ്റേറ്റ് ഡാറ്റാബേസ് ഇല്ലെങ്കിലും, അവയെല്ലാം"
+" ഇപ്പോഴും ബ്ലോക്ക്‌ചെയിനിന്റെ പകർപ്പുകൾ‌ വഹിക്കുന്നു, കാരണം ഏറ്റവും പുതിയ കോൺ‌ഫിഗറേഷൻ ബ്ലോക്ക്"
+" ഉപയോഗിച്ച് അനുമതികൾ‌ പരിശോധിക്കാൻ‌ ഇത് അനുവദിക്കുന്നു. അതിനാൽ ശരിയായ ഫയൽ പാത്ത് "
+"ഉപയോഗിച്ച് ലെഡ്ജർ ഫീൽഡുകൾ ഇഷ്ടാനുസൃതമാക്കണം."
 #: ../../source/deployment_guide_overview.rst:185
 msgid ""
 "``Cluster``: these values are important for ordering service nodes that "
 "communicate with other ordering nodes, such as in a Raft based ordering "
 "service."
 msgstr ""
-
+"``ക്ലസ്റ്റർ``: റാഫ്റ്റ് അടിസ്ഥാനമാക്കിയുള്ള ഓർ‌ഡറിംഗ് സേവനം പോലുള്ള മറ്റ് ഓർ‌ഡറിംഗ് "
+"നോഡുകളുമായി ആശയവിനിമയം നടത്തുന്ന സേവന നോഡുകൾ‌ ഓർ‌ഡർ‌ ചെയ്യുന്നതിന് "
+"ഈ മൂല്യങ്ങൾ‌ പ്രധാനമാണ്."
 #: ../../source/deployment_guide_overview.rst:187
 msgid ""
 "``General.BootstrapFile``: this is the name of the configuration block "
@@ -861,7 +958,9 @@ msgid ""
 "generated in an ordering service, this file will have to be generated and"
 " is known as the \"genesis block\"."
 msgstr ""
-
+"``ജനറൽ.ബൂട്ട്‌സ്‌ട്രാപ്പ് ഫയൽ``: ഒരു ഓർഡറിംഗ് നോഡ് ബൂട്ട് സ്ട്രാപ്പ് ചെയ്യുന്നതിന് ഉപയോഗിക്കുന്ന "
+"കോൺഫിഗറേഷൻ ബ്ലോക്കിന്റെ പേരാണിത്. ഒരു ഓർ‌ഡറിംഗ് സേവനത്തിൽ‌ ജനറേറ്റുചെയ്‌ത ആദ്യത്തെ"
+" നോഡാണ് ഈ നോഡ് എങ്കിൽ‌, ഈ ഫയൽ‌ ജനറേറ്റുചെയ്യേണ്ടിവരും, ഇതിനെ  \"ജെനിസിസ് ബ്ലോക്ക് \" എന്ന് വിളിക്കുന്നു."
 #: ../../source/deployment_guide_overview.rst:189
 msgid ""
 "``General.BootstrapMethod``: the method by which the bootstrap block is "
@@ -869,14 +968,18 @@ msgid ""
 "``BootstrapFile`` is specified. Starting in 2.0, you can specify ``none``"
 " to simply start the orderer without bootstrapping."
 msgstr ""
-
+"`` ജനറൽ.ബൂട്ട്‌സ്‌ട്രാപ്പ് രീതി``: ബൂട്ട്‌സ്‌ട്രാപ്പ് ബ്ലോക്ക് നൽകുന്ന രീതി. ഇപ്പോൾ, ഇത് ``ഫയൽ`` മാത്രമായിരിക്കാൻ "
+"കഴിയും, അതിൽ `` ബൂട്ട്‌സ്‌ട്രാപ്പ് ഫയലിലെ`` ഫയൽ വ്യക്തമാക്കുന്നു. 2.0 മുതൽ‌, ബൂട്ട്‌സ്‌ട്രാപ്പിംഗ് കൂടാതെ"
+" ഓർ‌ഡെറർ‌ ആരംഭിക്കുന്നതിന് നിങ്ങൾക്ക് `` ഒന്നുമില്ല`` വ്യക്തമാക്കാൻ‌ കഴിയും."
 #: ../../source/deployment_guide_overview.rst:191
 msgid ""
 "``Consensus``: determines the key/value pairs allowed by the consensus "
 "plugin (Raft ordering services are supported and recommended) for the "
 "Write Ahead Logs (``WALDir``) and Snapshots (``SnapDir``)."
 msgstr ""
-
+"``സമവായം``: റൈറ്റ് അഹെഡ് ലോഗുകൾക്കും ( ``WALDir``) സ്നാപ്പ്ഷോട്ടുകൾക്കും "
+"( ``SnapDir``) സമവായ പ്ലഗിൻ (റാഫ്റ്റ് ഓർഡറിംഗ് സേവനങ്ങൾ പിന്തുണയ്‌ക്കുകയും ശുപാർശ "
+"ചെയ്യുകയും ചെയ്യുന്നു) അനുവദിക്കുന്ന കീ / മൂല്യ ജോഡികൾ നിർണ്ണയിക്കുന്നു."
 #: ../../source/deployment_guide_overview.rst:193
 msgid ""
 "When you're comfortable with how your ordering node has been configured, "
@@ -884,11 +987,14 @@ msgid ""
 " the command to launch the ordering node (this command will depend on "
 "your backend configuration)."
 msgstr ""
-
+"നിങ്ങളുടെ ഓർ‌ഡറിംഗ് നോഡ് എങ്ങനെ ക്രമീകരിച്ചു, നിങ്ങളുടെ വോള്യങ്ങൾ‌ എങ്ങനെയാണ്‌ മൌണ്ട്  "
+"ചെയ്‌തിരിക്കുന്നത്, നിങ്ങളുടെ ബാക്കെൻഡ് കോൺ‌ഫിഗറേഷൻ എന്നിവയിൽ‌ നിങ്ങൾ‌ക്ക് താൽ‌പ്പര്യമുണ്ടെങ്കിൽ‌,"
+" ഓർ‌ഡറിംഗ് നോഡ് സമാരംഭിക്കുന്നതിന് നിങ്ങൾക്ക് കമാൻഡ് പ്രവർത്തിപ്പിക്കാൻ‌ കഴിയും (ഈ കമാൻഡ് നിങ്ങളുടെ"
+" ബാക്കെൻഡ് കോൺ‌ഫിഗറേഷനെ ആശ്രയിച്ചിരിക്കും)."
 #: ../../source/deployment_guide_overview.rst:196
 msgid "Next steps"
 msgstr ""
-
+"അടുത്ത ഘട്ടങ്ങൾ"
 #: ../../source/deployment_guide_overview.rst:198
 msgid ""
 "Blockchain networks are all about connection, so once you've deployed "
@@ -899,14 +1005,22 @@ msgid ""
 "want to learn how to develop chaincode, which you can learn about in the "
 "topics :doc:`developapps/scenario` and :doc:`chaincode_lifecycle`."
 msgstr ""
-
+"ബ്ലോക്ക്‌ചെയിൻ നെറ്റ്‌വർക്കുകൾ എല്ലാം കണക്ഷനെക്കുറിച്ചാണ്, അതിനാൽ നിങ്ങൾ നോഡുകൾ വിന്യസിച്ചുകഴിഞ്ഞാൽ, "
+"നിങ്ങൾ അവയെ മറ്റ് നോഡുകളിലേക്ക് കണക്റ്റുചെയ്യാൻ ആഗ്രഹിക്കുന്നു! നിങ്ങൾക്ക് ഒരു പിയർ ഓർഗനൈസേഷനും"
+" ഒരു പിയറും ഉണ്ടെങ്കിൽ, നിങ്ങളുടെ ഓർഗനൈസേഷനിൽ ഒരു കൺസോർഷ്യത്തിലേക്ക് ചേരാൻ നിങ്ങൾ ആഗ്രഹിക്കുന്നു."
+" ചേരുക അല്ലെങ്കിൽ :doc:`channels`. ചെയിൻ‌കോഡ് എങ്ങനെ വികസിപ്പിക്കാമെന്നും നിങ്ങൾ‌ "
+"പഠിക്കാൻ‌ താൽ‌പ്പര്യപ്പെടുന്നു, അത്  :doc:`developapps/scenario` and :doc:`chaincode_lifecycle`"
+" ലെ വിഷയങ്ങളിൽ‌ നിങ്ങൾ‌ക്ക് മനസിലാക്കാൻ‌ കഴിയും."
 #: ../../source/deployment_guide_overview.rst:200
 msgid ""
 "Part of the process of connecting nodes and creating channels will "
 "involve modifying policies to fit the use cases of business networks. For"
 " more information about policies, check out :doc:`policies/policies`."
 msgstr ""
-
+"നോഡുകൾ കണക്റ്റുചെയ്യുന്നതിനും ചാനലുകൾ സൃഷ്ടിക്കുന്നതിനുമുള്ള പ്രക്രിയയുടെ "
+"ഭാഗമായി ബിസിനസ്സ് നെറ്റ്‌വർക്കുകളുടെ ഉപയോഗ കേസുകൾക്ക് അനുയോജ്യമായ രീതിയിൽ "
+"നയങ്ങൾ പരിഷ്‌ക്കരിക്കുന്നത് ഉൾപ്പെടുന്നു. നയങ്ങളെക്കുറിച്ചുള്ള കൂടുതൽ വിവരങ്ങൾക്ക്, "
+"പരിശോധിക്കുക :doc:`policies/policies`."
 #: ../../source/deployment_guide_overview.rst:202
 msgid ""
 "One of the common tasks in a Fabric will be the editing of existing "
@@ -917,4 +1031,10 @@ msgid ""
 "after they have been deployed, check out "
 ":doc:`upgrading_your_components`."
 msgstr ""
-
+"ഒരു ഫാബ്രിക്കിലെ പൊതുവായ ജോലികളിൽ ഒന്ന് നിലവിലുള്ള ചാനലുകളുടെ എഡിറ്റിംഗ് ആയിരിക്കും. ആ പ്രക്രിയയെക്കുറിച്ചുള്ള "
+"ഒരു ട്യൂട്ടോറിയലിനായി പരിശോധിക്കുക "
+":doc:`config_update`. നിലവിലുള്ള ഒരു ചാനലിലേക്ക് ഒരു ഓർഗ് "
+"ചേർക്കുക എന്നതാണ് ഒരു ജനപ്രിയ ചാനൽ അപ്‌ഡേറ്റ്. ഒരു ട്യൂട്ടോറിയലിനായി ആ നിർദ്ദിഷ്ട പ്രക്രിയയെക്കുറിച്ച്,"
+" പരിശോധിക്കുക :doc:`channel_update_tutorial`. വിന്യസിച്ച ശേഷം നോഡുകൾ "
+"നവീകരിക്കുന്നതിനെക്കുറിച്ചുള്ള വിവരങ്ങൾക്ക്, പരിശോധിക്കുക  "
+":doc:`upgrading_your_components`."
